@@ -4906,6 +4906,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf395407a1df60d4ebaad52cf81795fd, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &481840182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5011,6 +5012,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 481840182}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of c98c784... office update
 =======
 >>>>>>> parent of c98c784... office update
 --- !u!1 &486969163
@@ -12607,10 +12610,13 @@ Transform:
   - {fileID: 1097792032}
   - {fileID: 183454664}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 2077371672}
   - {fileID: 481840183}
   - {fileID: 1223020146}
   - {fileID: 465961219}
+=======
+>>>>>>> parent of c98c784... office update
 =======
 >>>>>>> parent of c98c784... office update
   m_Father: {fileID: 0}
