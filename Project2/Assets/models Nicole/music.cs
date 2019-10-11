@@ -13,7 +13,7 @@ public class music : MonoBehaviour
         if (!musicSource.isPlaying)
         {
             musicSource.Play();
-        }
+        } 
         else if (musicSource.isPlaying)
         {
             musicSource.Stop();
