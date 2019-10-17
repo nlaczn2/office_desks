@@ -20,5 +20,10 @@ public class ring : MonoBehaviour
         {
             Source.PlayOneShot(music);
         }
+
+    }
+
+    public void rinnging() {
+       
     }
 }
