@@ -4656,6 +4656,7 @@ MonoBehaviour:
   talkSoft: {fileID: 1389170422}
   talkNorm: {fileID: 277997657}
   Person: {fileID: 40668528}
+  teleport: {fileID: 40668528}
   x: 3
   y: 3
   z: 3
@@ -8821,12 +8822,12 @@ PrefabInstance:
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.0614
+      value: 2.0262
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.241
+      value: -0.214
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
@@ -8876,12 +8877,12 @@ PrefabInstance:
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0077488697
+      value: 0.012433062
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.032047227
+      value: 0.053697124
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
@@ -38928,6 +38929,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shrink- nteractable.Primary_Grab.Secondary_Swap (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8265383420104874212, guid: 240fdd985e025cb459f73d2b1bb7b341,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 4800425021652016632, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_IsActive
@@ -38971,7 +38977,7 @@ PrefabInstance:
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 2597149656536317179, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
@@ -39815,7 +39821,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1031834269}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1387710048}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a11803ae5247db04b8ba76bdf0e5c67d, type: 3}
@@ -48830,6 +48836,7 @@ MonoBehaviour:
   talkSoft: {fileID: 1389170422}
   talkNorm: {fileID: 277997657}
   Person: {fileID: 40668528}
+  teleport: {fileID: 1387710048}
   x: 1
   y: 1
   z: 1
@@ -50700,6 +50707,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1390912125830776597, guid: bf395407a1df60d4ebaad52cf81795fd,
     type: 3}
   m_PrefabInstance: {fileID: 1258506898}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1387710048 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2787178629607972807, guid: 52f87534fdefc6b47aadeae3a66454d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1031834269}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1389170422
 GameObject:
@@ -54278,6 +54291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grow-Interactable.Primary_Grab.Secondary_Swap (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265383420104874212, guid: 240fdd985e025cb459f73d2b1bb7b341,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 4800425021652016632, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
@@ -63550,8 +63568,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731075992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.335, y: -0.183, z: 0.621}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalPosition: {x: -0.141, y: -0.149, z: 0.55}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 1756269576}
   - {fileID: 788589659}
@@ -71682,11 +71700,12 @@ MonoBehaviour:
   talkSoft: {fileID: 1389170422}
   talkNorm: {fileID: 277997657}
   Person: {fileID: 40668528}
+  teleport: {fileID: 1387710048}
   x: 0.2
   y: 0.2
   z: 0.2
   x1: 0
-  y1: 100
+  y1: 10
   z1: 0
 --- !u!114 &1963982635
 MonoBehaviour:
@@ -75657,6 +75676,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Norm -Interactable.Primary_Grab.Secondary_Swap (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8265383420104874212, guid: 240fdd985e025cb459f73d2b1bb7b341,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 4800425021652016632, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
       propertyPath: m_IsActive
@@ -79097,8 +79121,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2846023949205446323}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 2.1768, y: -0.26782, z: 0.8925099}
-  m_LocalScale: {x: 0.13750017, y: 0.080062, z: 0.107500136}
+  m_LocalPosition: {x: 2.2114, y: -0.25893998, z: 0.8925099}
+  m_LocalScale: {x: 0.13750017, y: 0.13414888, z: 0.17248398}
   m_Children:
   - {fileID: 4980818787517278736}
   - {fileID: 1471747186}
@@ -83142,7 +83166,7 @@ Transform:
   - {fileID: 1367119147}
   - {fileID: 1933746833}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3053115827578999766
 PrefabInstance:
@@ -87787,8 +87811,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8296172668924464316}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2247176, y: -0.2495, z: -0.08151293}
-  m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
+  m_LocalPosition: {x: 5.2247176, y: -0.213, z: 0.155}
+  m_LocalScale: {x: 0.02, y: 0.027246, z: 0.02}
   m_Children:
   - {fileID: 525038436}
   - {fileID: 238516413}

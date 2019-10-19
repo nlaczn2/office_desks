@@ -19,6 +19,7 @@ public class shrinkScript1 : MonoBehaviour
 
 
     public GameObject Person;
+    public GameObject teleport;
     public float x = 0.3f;
     public float y = 0.3f;
     public float z = 0.3f;
@@ -32,6 +33,8 @@ public class shrinkScript1 : MonoBehaviour
 
         Person.transform.localScale = new Vector3(x, y, z);
         Person.transform.localPosition= new Vector3(x1, y1, z1);
+        teleport.transform.localScale = new Vector3(x, y, z);
+        //Person.transform.localPosition = new Vector3(x1, y1, z1);
 
         if (small == 1) {
             officeLoud.SetActive(true);
