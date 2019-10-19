@@ -20,6 +20,8 @@ public class shrinkScript1 : MonoBehaviour
 
     public GameObject Person;
     public GameObject teleport;
+    public GameObject Roof;
+
     public float x = 0.3f;
     public float y = 0.3f;
     public float z = 0.3f;
@@ -43,6 +45,8 @@ public class shrinkScript1 : MonoBehaviour
             talkSoft.SetActive(false);
             officeNorm.SetActive(false);
             talkNorm.SetActive(false);
+
+            Roof.SetActive(true);
         }
         else if (normal == 1) {
             officeLoud.SetActive(false);
@@ -51,6 +55,7 @@ public class shrinkScript1 : MonoBehaviour
             talkSoft.SetActive(false);
             officeNorm.SetActive(true);
             talkNorm.SetActive(true);
+            Roof.SetActive(true);
         }
         else if (big == 1) {
             officeLoud.SetActive(false);
@@ -59,6 +64,8 @@ public class shrinkScript1 : MonoBehaviour
             talkSoft.SetActive(true);
             officeNorm.SetActive(false);
             talkNorm.SetActive(false);
+
+            Roof.SetActive(false);
         }
 
     }
