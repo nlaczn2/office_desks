@@ -10,7 +10,7 @@ public class flamer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -19,7 +19,8 @@ public class flamer : MonoBehaviour
         
     }
 
-    public void somefnk() {
+    public void somefnk() 
+    {
         if (!fire.activeInHierarchy)
         {
             fire.SetActive(true);
