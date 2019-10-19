@@ -6,13 +6,15 @@ using UnityEngine;
 public class flash : MonoBehaviour
 {
     public GameObject tallLightOn;
-    public GameObject tallLightOff;
-    int counter;
+
 
     // Start is called before the first frame update
-    void Start()
+    public void StartPrint()
     {
-        
+        if (!tallLightOn.activeInHierarchy)
+        {
+            tallLightOn.SetActive(true);
+        }
     }
 
     // Update is called once per frame
