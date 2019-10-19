@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class flamer : MonoBehaviour
+public class soundPlay : MonoBehaviour
 {
 
     public GameObject fire;
-    public GameObject sound;
+
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -20,18 +20,16 @@ public class flamer : MonoBehaviour
         
     }
 
-    public void somefnk() 
+    public void somefnk()
     {
         if (!fire.activeInHierarchy)
         {
             fire.SetActive(true);
-            sound.SetActive(true);
-            
+
         }
         else if (fire.activeInHierarchy)
         {
             fire.SetActive(false);
-            sound.SetActive(false);
         }
     }
 }
